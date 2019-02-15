@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="mainContain">
-      <div class="upperBackground"
+      <div class="upperBackground">
         <div id="logo">
           <img src="img/logo.png" alt="Roll20Logo" class="logoPic">
         </div>
@@ -80,22 +80,51 @@
 
 <!--DropDown menus on hover. Maybe not drop downs, but just hide/show divs with positioning relative to the corresponding li?  -->
 
-        <div>
-          <div id="howRoll">
+        <div id="howRoll">
+          <div id="howRollText">
             <h1>This Is How We Roll.</h1>
             <p><strong>Roll20</strong> is a suite of easy-to-use digital tools that expand pen-and-paper gameplay. Whether you play online via our virtual tabletop or in person utilizing our character sheet and dice rolling application, Roll20 will save you time and help you focus on enhancing your favorite parts of tabletop gaming.After over six years of consistent updates and surging past three million users, Roll20 has helped redefine the tabletop gaming hobby-- but we’re not done yet. Want to join in what’s next? <strong>Let’s roll.</strong></p>
           </div>
-          <div id="howRollImgs">
-          <!--Div containing This Is How We Roll, as well as images. Probably two columns displayed in a row  -->
+            <div id="howRollImgs">
+              <div id="bigImg">
+                <img src="img/bigImg.png" alt="">
+              </div>
+              <div id="smallImgs">
+                <div id="topImgRow">
+                  <img src="img/dnd.png" alt="">
+                  <img src="img/patherfinder.png" alt="">
+                </div>
+                <div id="botImgRow">
+                  <img src="img/13th.png" alt="">
+                  <img src="img/monte.gif" alt="">
+                  <img src="gold.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 <!--upperBackground finished  -->
 
 
 
-      <div>
-        <!--Tour Div. Tour title, then 3 column divs displayed in a row-->
+      <div id="tour">
+        <h1>Tour</h1>
+        <div id="tourText">
+          <div id="eleGant">
+            <h2>Elegantly Simple</h2>
+            <p>Roll20's virtual tabletop, Compendium, and Character Building tools are powered by HTML5 technology and run directly in your web browser. There’s nothing to download or install and no messy configuration files for Game Masters or players. Want to invite someone to your game? You merely send a short link. And there’s never a need to do scripting or other tedious tasks, it all just works.</p>
+          </div>
+          <div id="storyTe">
+            <h2>Storytelling, Enhanced</h2>
+            <p>Other digital tabletop gaming tools try to turn pen-and-paper experiences into an automated video game where your creativity is restricted. Roll20 instead gives you ways to enhance your own unique storytelling games via drawing tools, simple handouts, secret whispers, background music, and other real-time shared elements.</p>
+          </div>
+          <div id="sysAg">
+            <h2>System Agnostic</h2>
+            <p>Roll20 doesn’t favor one set of mechanics over another, so it can be used with a variety of games. Play D&D online (any edition), Pathfinder, Shadowrun, Savage Worlds, FATE, board games, and more. Whether you need basic dice rolls or advanced macros, turn trackers or simple markers, you’ll find that Roll20 works easily with any tabletop gaming system.</p>
+          </div>
+        </div>
       </div>
+        <!--Tour Div. Tour title, then 3 column divs displayed in a row-->
 
       <div>
         <!--Div with East to use, Character Sheets and Dynamic Lighting  -->
