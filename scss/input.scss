@@ -12,6 +12,10 @@ $mixin bodyText {
   display: flex;
 }
 
+.upperBackground {
+  background-color: gradient;
+}
+
 #logo {
   display: flex;
   justify-content: flex-start;
@@ -34,4 +38,53 @@ $mixin bodyText {
     display: flex;
     justify-content: flex-end;
   }
+}
+
+#navBarMenus
+
+#howRoll {
+  display: flex;
+  flex-direction: row;
+  #howRollText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #howRollImgs {
+    display: flex;
+    flex-direction: column;
+    just
+    #bigImg{
+      // size for big image goes here
+    }
+    #topImgRow{
+      display:flex;
+      flex-direction: row;
+    }
+    #botImgRow {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+
+.rowsBody {
+  display: flex;
+  flex-direction: row;
+  .rowsText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+#footerList {
+  display:flex;
+  flex-direction: row;
 }
