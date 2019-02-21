@@ -6,24 +6,13 @@
 
 ## Description
 
-_This is a non functioning clone of the ._
-
-_SPECS_
-
-_The program creates a pizza object based on user input_
-
-* _example input: large, cheese       example output: pizza.size=large pizza.toppings=cheese_
-
-_The program computes price based on size and toppings input_
-
-* _example input: large, cheese       example output: $16.50._
+_This is a non functioning clone of the Roll20 website. It copies the layout of the Roll20 homepage in an attempt to utilize similar CSS code._
 
 
 ## Setup/Installation Requirements
 
 * _No Setup/Installation Required_
 
-_Download Bootstrap, as well as jQuery v 3.3.1.js_
 
 ## Known Bugs
 
