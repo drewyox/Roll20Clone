@@ -7,189 +7,182 @@
     <title>Roll20 Clone</title>
   </head>
   <body>
+    <div class="upperBackground">
+    </div>
     <div class="mainContain">
-      <div class="upperBackground">
-        <div id="logo">
-          <img src="img/logo.png" alt="Roll20Logo" class="logoPic">
-        </div>
-        <div id="navBar">
-          <div>
-            <ul id="mainNavOpt">
-              <li>Play Now</li>
-              <li>Join a Game</li>
-              <li>Marketplace</li>
-              <li>Tools</li>
-              <li>Community</li>
+      <div id="logo">
+        <img src="img/logo.png" alt="Roll20Logo" class="logoPic">
+      </div>
+      <div id="navBar">
+      <div>
+        <ul id="mainNavOpt">
+          <li id="playNowTab">Play Now</li>
+          <li id="joinGameTab">Join a Game</li>
+          <li id="marketPlaceTab">Marketplace</li>
+          <li id="toolTab">Tools</li>
+          <li id="communityTab">Community</li>
+        </ul>
+      </div>
+      <div id="signIn">
+        Sign In
+      </div>
+      <div id="navBarMenus">
+        <div id="marketPlaceMenu">
+          <div id="mrkMenuText">
+            <ul>
+              <li>Whats New?</li>
+              <li>Browse</li>
+              <li>Give a gift</li>
+              <li>Merchandise</li>
             </ul>
           </div>
-          <div id="signIn">
-            Sign In
-          </div>
-          <div id="navBarMenus">
-            <div id="marketPlaceMenu">
-              <div id="mrkMenuText">
-                <ul>
-                  <li>Whats New?</li>
-                  <li>Browse</li>
-                  <li>Give a gift</li>
-                  <li>Merchandise</li>
-                </ul>
-              </div>
-              <div id="mrktImgs">
-                <img src="img/market1.jpg">
-                <img src="img/market2.jpg">
-                <img src="img/market3.jpg">
-                <img src="img/market4.jpg">
-              </div>
-            </div>
-            <div id="toolsMenu">
-              <div id="toolsMenuText">
-                <ul>
-                  <li>Whats New?</li>
-                  <li>Browse</li>
-                  <li>Give a gift</li>
-                  <li>Merchandise</li>
-                </ul>
-              </div>
-              <div id="toolsImgs">
-                <img src="img/tools1.png">
-                <img src="img/tools2.png">
-                <img src="img/tools3.png">
-                <img src="img/tools4.png">
-              </div>
-            </div>
-            <div id="communityMenu">
-              <div id="commMenuText">
-                <ul>
-                  <li>Whats New?</li>
-                  <li>Browse</li>
-                  <li>Give a gift</li>
-                  <li>Merchandise</li>
-                </ul>
-              </div>
-              <div id="commImgs">
-                <img src="img/comm1.jpg">
-                <img src="img/comm2.jpg">
-                <img src="img/comm3.png">
-                <img src="img/comm4.jpg">
-              </div>
-            </div>
+          <div id="mrktImgs">
+            <img src="img/market1.jpg">
+            <img src="img/market2.jpg">
+            <img src="img/market3.jpg">
+            <img src="img/market4.jpg">
           </div>
         </div>
-<!--DropDown menus on hover. Maybe not drop downs, but just hide/show divs with positioning relative to the corresponding li?  -->
-        <div id="howRoll">
-          <div id="howRollText">
-            <h1>This Is How We Roll.</h1>
-            <p><strong> Roll20</strong> is a suite of easy-to-use digital tools that expand pen-and-paper gameplay. Whether you play online via our virtual tabletop or in person utilizing our character sheet and dice rolling application, Roll20 will save you time and help you focus on enhancing your favorite parts of tabletop gaming.</p><br><p> After over six years of consistent updates and surging past three million users, Roll20 has helped redefine the tabletop gaming hobby-- but we’re not done yet. Want to join in what’s next? <strong>Let’s roll.</strong></p>
-            <button class="button">CREATE YOUR FREE ACCOUNT</button>
+        <div id="toolsMenu">
+          <div id="toolsMenuText">
+            <ul>
+              <li>Whats New?</li>
+              <li>Browse</li>
+              <li>Give a gift</li>
+              <li>Merchandise</li>
+            </ul>
           </div>
-          <div id="howRollImgs">
-            <div>
-              <img src="img/bigImg.png" alt="" id="bigImg">
-            </div>
-            <div id="topImgRow">
-              <img src="img/dnd.png" alt="" class="topImg">
-              <img src="img/pathfinder.png" alt="" class="topImg">
-            </div>
-            <div id="botImgRow">
-              <img src="img/13th.png" alt="" class="botImg">
-              <img src="img/monte.gif" alt="" class="botImg">
-              <img src="img/gold.png" alt="" class="botImg">
-            </div>
+          <div id="toolsImgs">
+            <img src="img/tools1.png">
+            <img src="img/tools2.png">
+            <img src="img/tools3.png">
+            <img src="img/tools4.png">
+          </div>
+        </div>
+        <div id="communityMenu">
+          <div id="commMenuText">
+            <ul>
+              <li>Whats New?</li>
+              <li>Browse</li>
+              <li>Give a gift</li>
+              <li>Merchandise</li>
+            </ul>
+          </div>
+          <div id="commImgs">
+            <img src="img/comm1.jpg">
+            <img src="img/comm2.jpg">
+            <img src="img/comm3.png">
+            <img src="img/comm4.jpg">
           </div>
         </div>
       </div>
-<!--upperBackground finished  -->
+    </div>
+    <div id="howRoll">
+      <div id="howRollText">
+        <h1>This Is How We Roll.</h1>
+        <p><strong> Roll20</strong> is a suite of easy-to-use digital tools that expand pen-and-paper gameplay. Whether you play online via our virtual tabletop or in person utilizing our character sheet and dice rolling application, Roll20 will save you time and help you focus on enhancing your favorite parts of tabletop gaming.</p><br><p> After over six years of consistent updates and surging past three million users, Roll20 has helped redefine the tabletop gaming hobby-- but we’re not done yet. Want to join in what’s next? <strong>Let’s roll.</strong></p>
+        <button class="button">CREATE YOUR FREE ACCOUNT</button>
+      </div>
+      <div id="howRollImgs">
+        <div>
+          <img src="img/bigImg.png" alt="" id="bigImg">
+        </div>
+        <div id="topImgRow">
+          <img src="img/dnd.png" alt="" class="topImg">
+          <img src="img/pathfinder.png" alt="" class="topImg">
+        </div>
+        <div id="botImgRow">
+          <img src="img/13th.png" alt="" class="botImg">
+          <img src="img/monte.gif" alt="" class="botImg">
+          <img src="img/gold.png" alt="" class="botImg">
+        </div>
+      </div>
+    </div>
       <h1 id="aloneTour">Tour</h1>
-      <div class="rowsBody">
+        <div class="rowsBody">
+          <div class="rowsText">
+            <div class="column">
+              <h2>Elegantly Simple</h2>
+              <p>Roll20's virtual tabletop, Compendium, and Character Building tools are powered by HTML5 technology and run directly in your web browser. There’s nothing to download or install and no messy configuration files for Game Masters or players. Want to invite someone to your game? You merely send a short link. And there’s never a need to do scripting or other tedious tasks, it all just works.</p>
+            </div>
+            <div class="column">
+              <h2>Storytelling, Enhanced</h2>
+              <p>Other digital tabletop gaming tools try to turn pen-and-paper experiences into an automated video game where your creativity is restricted. Roll20 instead gives you ways to enhance your own unique storytelling games via drawing tools, simple handouts, secret whispers, background music, and other real-time shared elements.</p>
+            </div>
+            <div class="column">
+              <h2>System Agnostic</h2>
+              <p>Roll20 doesn’t favor one set of mechanics over another, so it can be used with a variety of games. Play D&D online (any edition), Pathfinder, Shadowrun, Savage Worlds, FATE, board games, and more. Whether you need basic dice rolls or advanced macros, turn trackers or simple markers, you’ll find that Roll20 works easily with any tabletop gaming system.</p>
+            </div>
+          </div>
+        </div>
         <div class="rowsText">
           <div class="column">
-            <h2>Elegantly Simple</h2>
-            <p>Roll20's virtual tabletop, Compendium, and Character Building tools are powered by HTML5 technology and run directly in your web browser. There’s nothing to download or install and no messy configuration files for Game Masters or players. Want to invite someone to your game? You merely send a short link. And there’s never a need to do scripting or other tedious tasks, it all just works.</p>
+            <img src="img/easyto.png" alt="" class="tourImgs">
+            <h2>Easy to Use</h2>
+            <p>Being a game master is hard enough. Roll20 makes as it easy as possible saving you the hassle of installations or configurations. Simply open Firefox or Chrome via Windows, Mac, or Linux and log in to Roll20 via your browser.</p><br>
+            <p>It's just as easy to invite players. Send them a quick link and they’re in your game, ready to play. This is the simplest way to bring an online group together so you spend more time playing, and less time swearing at firewalls.</p>
           </div>
           <div class="column">
-            <h2>Storytelling, Enhanced</h2>
-            <p>Other digital tabletop gaming tools try to turn pen-and-paper experiences into an automated video game where your creativity is restricted. Roll20 instead gives you ways to enhance your own unique storytelling games via drawing tools, simple handouts, secret whispers, background music, and other real-time shared elements.</p>
+            <img src="img/charsheet.png" alt="" class="tourImgs">
+            <h2>Character Sheets</h2>
+            <p>There’s no need to rely on paper. Roll20 provides a variety of community-contributed sheets for most popular gaming systems. Set them up for your players ahead of time or do character creation right in Roll20 -- it's up to you! Never worry about losing a paper sheet again, and speed up your gameplay via optional calculations. Read more...</p>
           </div>
           <div class="column">
-            <h2>System Agnostic</h2>
-            <p>Roll20 doesn’t favor one set of mechanics over another, so it can be used with a variety of games. Play D&D online (any edition), Pathfinder, Shadowrun, Savage Worlds, FATE, board games, and more. Whether you need basic dice rolls or advanced macros, turn trackers or simple markers, you’ll find that Roll20 works easily with any tabletop gaming system.</p>
+            <img src="img/light.png" alt="" class="tourImgs">
+            <p>Our powerful visual tool restricts what players can see in real-time as they move around a map. It's also incredibly easy to use: just draw lines to represent walls, set up tokens with a light radius, and start playing! Your dungeon delves will never be the same.</p>
+            <br>
+            <p>Dynamic Lighting affects any game that you create as a Game Master, allowing you to set up various sight scenarios for your players that change in real time. Read more...</p>
           </div>
         </div>
-      </div>
-
-      <div class="rowsText">
-        <div class="column">
-          <img src="img/easyto.png" alt="" class="tourImgs">
-          <h2>Easy to Use</h2>
-          <p>Being a game master is hard enough. Roll20 makes as it easy as possible saving you the hassle of installations or configurations. Simply open Firefox or Chrome via Windows, Mac, or Linux and log in to Roll20 via your browser.</p><br>
-          <p>It's just as easy to invite players. Send them a quick link and they’re in your game, ready to play. This is the simplest way to bring an online group together so you spend more time playing, and less time swearing at firewalls.</p>
-        </div>
-        <div class="column">
-          <img src="img/charsheet.png" alt="" class="tourImgs">
-          <h2>Character Sheets</h2>
-          <p>There’s no need to rely on paper. Roll20 provides a variety of community-contributed sheets for most popular gaming systems. Set them up for your players ahead of time or do character creation right in Roll20 -- it's up to you! Never worry about losing a paper sheet again, and speed up your gameplay via optional calculations. Read more...</p>
-        </div>
-        <div class="column">
-          <img src="img/light.png" alt="" class="tourImgs">
-          <p>Our powerful visual tool restricts what players can see in real-time as they move around a map. It's also incredibly easy to use: just draw lines to represent walls, set up tokens with a light radius, and start playing! Your dungeon delves will never be the same.</p>
-          <br>
-          <p>Dynamic Lighting affects any game that you create as a Game Master, allowing you to set up various sight scenarios for your players that change in real time. Read more...</p>
-        </div>
-      </div>
-
-      <div class="rowsText">
-        <div class="column">
-          <img src="img/voice.png" alt="" class="tourImgs">
-          <h2>Video + Voice Chat</h2>
-          <p>What makes tabletop gaming great? The people. While it’s not quite as good as getting around a table in person, our voice and video chat features help you see and hear your players as they spin epic tales of battle and intrigue. It doesn't require any setup, simply a WebRTC compatible browser. If you're on a slower connection, turn off the video and go audio-only. Don’t miss out on your players’ expressions during a critical roll! Read more...</p>
-        </div>
-        <div class="column">
-          <img src="img/dice.png" alt="" class="tourImgs">
-          <h2>Dice Rolls (3D + QuantumRoll)</h2>
-          <p>When you're playing online, you want to make sure your rolls are as fair as possible. We've gone the extra mile to enable our dice engine to be powered by a source of "true" randomness -- based on the power fluctuations of a split beam of light. If that sounds like overkill, it is -- but you'll thank us for it when you roll that critical hit. In fact, our dice are more fair than rolling in-person. Don't believe it? We've put ourselves to the test, and you can see for yourself.</p><br>
-          <p>Roll20 also features 3D Dice, which allow you to see a 3D physics simulation right in your browser whenever you perform a dice roll. Any other players with 3D Dice enabled will see your roll happening in real-time on their computer as well, so you can all share in the excitement of that crucial crit!</p>
-          <button class="button">CREATE YOUR FREE ACCOUNT</button>
-        </div>
-        <div class="column">
-          <img src="img/ipad.png" alt="" class="tourImgs">
-          <p>Upgrade your in-person experience with the Roll20 for iPad and Roll20 for Android free-to-use mobile tablet apps. Featuring digital dice, character sheets, handouts, and quick access to game rules, these apps eliminate the need for keeping paper sheets up to date and speed up gameplay through built-in rolls and macros. Whether you use them to complement running your game on the Roll20 Virtual Tabletop or just want to replace your paper sheets, they’re the perfect way to level up your in-person play!</p>
-        </div>
-      </div>
-      <div>
-
-
-      <div id="footer">
-        <div class="column">
-          <h2>About Roll20</h2>
-          <p>The Roll20 team is dedicated to enabling gamers to unite across any distance via our easy-to-use gaming tools. This means we strive to lessen the technical burden on the participants, facilitate the formation of new gaming groups, and to make barriers to entry as few as possible when gathering around a table for camaraderie. To accomplish these goals we seek to create a service that is sustainable and will be a resource to the gaming community as long as it is needed.</p>
-        </div>
-        <div class="column">
-          <h2>Stay Connected</h2>
-          <p>Stay connected with us via Facebook, Twitter, YouTube, Twitch, and Instagram to hear the latest news.</p>
-          <!--icon row-->
-        </div>
-        <div class="column">
-          <h2>Sign Up For Our Newsletter</h2>
-          <p>Join our newsletter to stay up to date on Roll20. We'll never give out your email or send you spam, we hate that stuff, too.</p>
-          <div id="emailInput">
-            <input type="text">
-            <button class="emailButton">Join</button>
+        <div class="rowsText">
+          <div class="column">
+            <img src="img/voice.png" alt="" class="tourImgs">
+            <h2>Video + Voice Chat</h2>
+            <p>What makes tabletop gaming great? The people. While it’s not quite as good as getting around a table in person, our voice and video chat features help you see and hear your players as they spin epic tales of battle and intrigue. It doesn't require any setup, simply a WebRTC compatible browser. If you're on a slower connection, turn off the video and go audio-only. Don’t miss out on your players’ expressions during a critical roll! Read more...</p>
+          </div>
+          <div class="column">
+            <img src="img/dice.png" alt="" class="tourImgs">
+            <h2>Dice Rolls (3D + QuantumRoll)</h2>
+            <p>When you're playing online, you want to make sure your rolls are as fair as possible. We've gone the extra mile to enable our dice engine to be powered by a source of "true" randomness -- based on the power fluctuations of a split beam of light. If that sounds like overkill, it is -- but you'll thank us for it when you roll that critical hit. In fact, our dice are more fair than rolling in-person. Don't believe it? We've put ourselves to the test, and you can see for yourself.</p><br>
+            <p>Roll20 also features 3D Dice, which allow you to see a 3D physics simulation right in your browser whenever you perform a dice roll. Any other players with 3D Dice enabled will see your roll happening in real-time on their computer as well, so you can all share in the excitement of that crucial crit!</p>
+            <button class="button">CREATE YOUR FREE ACCOUNT</button>
+          </div>
+          <div class="column">
+            <img src="img/ipad.png" alt="" class="tourImgs">
+            <p>Upgrade your in-person experience with the Roll20 for iPad and Roll20 for Android free-to-use mobile tablet apps. Featuring digital dice, character sheets, handouts, and quick access to game rules, these apps eliminate the need for keeping paper sheets up to date and speed up gameplay through built-in rolls and macros. Whether you use them to complement running your game on the Roll20 Virtual Tabletop or just want to replace your paper sheets, they’re the perfect way to level up your in-person play!</p>
           </div>
         </div>
-      </div>
+        <div>
+        <div id="footer">
+          <div class="columnF">
+            <h2>About Roll20</h2>
+            <p>The Roll20 team is dedicated to enabling gamers to unite across any distance via our easy-to-use gaming tools. This means we strive to lessen the technical burden on the participants, facilitate the formation of new gaming groups, and to make barriers to entry as few as possible when gathering around a table for camaraderie. To accomplish these goals we seek to create a service that is sustainable and will be a resource to the gaming community as long as it is needed.</p>
+          </div>
+          <div class="columnF">
+            <h2>Stay Connected</h2>
+            <p>Stay connected with us via Facebook, Twitter, YouTube, Twitch, and Instagram to hear the latest news.</p>
+            <!--icon row-->
+          </div>
+          <div class="columnF">
+            <h2>Sign Up For Our Newsletter</h2>
+            <p>Join our newsletter to stay up to date on Roll20. We'll never give out your email or send you spam, we hate that stuff, too.</p>
+            <div id="emailInput">
+              <input type="text">
+              <button class="emailButton">Join</button>
+            </div>
+          </div>
+        </div>
         <div class="rowsBody">
           <ul id="footerList">
-            <li class="footlistComp">The Orr Group, LLC</li>
-            <li class="footlistComp">Acknowledgements</li>
-            <li class="footlistComp">Terms of Service and Privacy Policy</li>
-            <li class="footlistComp">DMCA</li>
-            <li class="footlistComp">Need Help? Visit our FAQ!</li>
-            <li class="footlistComp">On social Media:(icons)</li>
-          </ul><br>
+        <li class="footlistComp">The Orr Group, LLC</li>
+        <li class="footlistComp">Acknowledgements</li>
+        <li class="footlistComp">Terms of Service and Privacy Policy</li>
+        <li class="footlistComp">DMCA</li>
+        <li class="footlistComp">Need Help? Visit our FAQ!</li>
+        <li class="footlistComp">On social Media:(icons)</li>
+      </ul><br>
         </div>
         <p>Roll20® is a Registered Trademark of The Orr Group, LLC. All rights reserved.</p>
-        </div>
       </div>
     </div>
   </body>
