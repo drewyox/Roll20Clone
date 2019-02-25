@@ -1,7 +1,7 @@
-* {
+/* * {
   border: 1px solid red;
 }
-
+ */
 
 body {
   margin: none;
@@ -78,28 +78,6 @@ body {
   justify-content: space-between;
 }
 
-/* #playNowTab {
-
-}
-
-#joinGameTab {
-
-}
-
-
-#marketPlaceTab:hover {
-
-}
-
-#toolTab:hover {
-
-}
-
-#communityTab:hover {
-
-} */
-
-
 #howRoll {
   display: flex;
   flex-direction: row;
@@ -107,6 +85,7 @@ body {
   }
 
 #howRollText {
+  max-width:410px;
   display: flex;
   flex-direction: column;
 }
@@ -142,7 +121,7 @@ body {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  
+
 }
 #botImgRow {
   display: flex;
@@ -151,17 +130,18 @@ body {
 }
 
 #bigImg {
-  height:470px;
-  width:874px;
+  width:100%;
+  max-height:470px;
+  max-width:874px;
 }
 
 .topImg {
-  height:70px;
+  max-height:70px;
   width:auto;
 }
 
 .botImg {
-  height: 90px;
+  max-height: 90px;
   width:auto;
 }
 
@@ -204,12 +184,13 @@ body {
   font-family:Helvetica,Arial,sans-serif;
   font-size: 4.0em;
   margin-top: 60px;
-  margin-left:5%;
+  margin-left:2.5%;
 }
 
 .tourImgs {
-  height:239px;
-  width:360px;
+  width:100%;
+  max-height:239px;
+  max-width:360px;
 }
 
 .button {
@@ -218,6 +199,7 @@ body {
   font-family:Helvetica,Arial,sans-serif;
   font-size: 20px;
   color:white;
+  margin:auto;
   margin-bottom: 0px;
   margin-top:20px;
   height:58px;
@@ -273,6 +255,27 @@ body {
   font-size: 12px;
 }
 
+@media screen and (max-width: 1000px) {
+  #howRoll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #howRollImgs {
+    width:100%;
+  }
+  #botImgRow {
+    width:100%;
+    max-width:auto;
+    max-height:90px;
+  }
+  .upperBackground{
+    height: 800px;
+  }
+}
+
+
+
 @media screen and (max-width: 650px) {
   .rowsText {
     display: flex;
@@ -281,8 +284,25 @@ body {
   #howRoll {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   #howRollImgs {
     width:100%;
+  }
+  #topImgRow {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    margin:auto;
+  }
+  #botImgRow {
+    width:100%;
+    max-width:auto;
+    max-height:90px;
+  }
+  .column {
+    display: flex;
+    align-items: center;
   }
 }
